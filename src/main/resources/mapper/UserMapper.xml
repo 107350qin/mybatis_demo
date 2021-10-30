@@ -2,6 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mybatis_demo.mybatis.mapper.UserMapper">
     <select id="selectById" resultType="com.example.mybatis_demo.mybatis.entity.User">
-        select id,name from user where id=#{id}
+        select id,name from user where id=#{id} 
     </select>
 </mapper>
